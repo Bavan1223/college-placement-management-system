@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: YIT PLACEMENT
+data:
+  PORT: "4518"
+  # Use environment variables for credentials (from Secret)
+  MONGODB_URL= "mongodb://sbavankumar2005_db_user:Hackathon2026@cluster0-shard-00-00.iphhgmx.mongodb.net:27017,cluster0-shard-00-01.iphhgmx.mongodb.net:27017,cluster0-shard-00-02.iphhgmx.mongodb.net:27017/test?ssl=true&replicaSet=atlas-iphhgmx-shard-0&authSource=admin&retryWrites=true&w=majority"
+  CLOUDINARY_CLOUD_NAME: "dtb4jqywb"
+  SMTP_HOST: "sbavankumar@gmail.com"
+  SMTP_USER: "yekq gvou kbtk xpaj"
