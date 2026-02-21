@@ -1,8 +1,8 @@
 const Users = require('../../models/user.model');
 const bcrypt = require('bcrypt');
 const sendMail = require("../../config/Nodemailer");
-const emailTemplate = require("../../utlis/emailTemplates");
-const generatePassword = require('../../utlis/generatePassword');
+const emailTemplate = require("../../utils/emailTemplates");
+const generatePassword = require('../../utils/generatePassword');
 
 const AddTPO = async (req, res) => {
   const { email, first_name, number } = req.body;
